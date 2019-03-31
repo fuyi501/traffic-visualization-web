@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+    <title>{{ title }}</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link href="/static/css/bootstrap.min.css?v=3.3.6" rel="stylesheet"> -->
+    <link href="/static/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/static/css/animate.css" rel="stylesheet">
+    <!-- <link href="/static/css/style.css?v=4.1.0" rel="stylesheet"> -->
+    <!-- ZUI 标准版压缩后的 CSS 文件 -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/zui/1.8.1/css/zui.min.css"> -->
+    <link href="/static/zui/css/zui.css" rel="stylesheet">
+    <link href="/static/zui/css/zui-theme.css" rel="stylesheet">
+    <!---->
+    <!-- <style type="text/css">
+    .anchorBL{
+      display:none;
+    }
+    .amap-logo,.amap-copyright{
+      display: none !important;
+    }
+    </style> -->
+    {% block style %}
+    <!--自定义样式-->
+    {% endblock %}
+</head>
+
+
+{% block page %}
+<!--页面内容-->
+{% endblock%}
+
+<!---->
+{% block script %}
+<!--额外的js-->
+{% endblock %}
+</body>
+
+</html>

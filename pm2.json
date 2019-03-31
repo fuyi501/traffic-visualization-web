@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "traffic-visual-web",
+    "script": "www/development.js",
+    "cwd": "/root/traffic-visual-web",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "2G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+  }]
+}
